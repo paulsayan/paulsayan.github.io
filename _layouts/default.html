@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{% include header.html %}
+
+<body data-theme="{{ site.mode }}">
+  {% include navbar.html %}
+
+  <div id="particles-js"></div>
+  
+  <div class="wrapper">
+    {% include author.html %}
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </div>
+
+  <!-- Particle JS Loader -->
+  <script src="/assets/js/particles.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'assets/config/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+    });
+  </script>
+
+</body>
+</html>
