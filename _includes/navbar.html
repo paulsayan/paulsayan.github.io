@@ -1,5 +1,15 @@
 <div class="navbar" role="navigation">
   <nav class="menu">
+    
+    <div class="logo">
+      <span class="logo__mark">> $</span>
+      <a href="/" style="text-decoration: none;">
+        <span class="logo__text">cd ~/sayan/</span>
+      </a>
+      <span class="logo__cursor" style="animation: cursor 0.7s infinite;"></span>
+    </div>
+    
+
     <input type="checkbox" id="menu-trigger" class="menu-trigger" />
     <label for="menu-trigger">
       <span class="menu-icon">
@@ -15,7 +25,9 @@
         </svg>
       </span>
     </label>
-    <a id="mood">
+
+    
+    <a id="mood" style="display: none;">
       <svg
         class="mood-sunny"
         xmlns="http://www.w3.org/2000/svg"
@@ -159,6 +171,9 @@
         />
       </svg>
     </a>
+    
+
+
     <div class="trigger">
       <div class="trigger-container">
         {% assign url = page.url %} {% for menu in site.data.menus %} {% if url
@@ -199,5 +214,8 @@
         
       </div>
     </div>
+
+  <!--</div>-->
+
   </nav>
 </div>
