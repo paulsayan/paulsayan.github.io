@@ -4,7 +4,7 @@ description: >-
   This is the personal portfolio website of Mr. Sayan Paul.
 lang: en-US
 timezone: Asia/Kolkata
-#image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 #repo: https://github.com/paulsayan
 mode: dark # default theme "dark" | "light"
 
@@ -18,13 +18,13 @@ author:
   github: https://github.com/paulsayan/
   twitter: https://twitter.com/sayanpaul_/
   linkedin: https://linkedin.com/in/sayan-paul/
-  avatar: /assets/img/sp1.jpg
+  avatar: /assets/img/sp2.jpg
 
 # Url settings
 url: 
 baseurl:
 permalink: /posts/:title/
-google_analytics:
+google_analytics: UA-179551252-1
 fb_appid:
 
 # Collection setting
