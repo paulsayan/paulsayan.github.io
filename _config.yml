@@ -12,10 +12,10 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Sayan Paul
   bio: >-
-    Learning how to make robots <br> understand this world the way we do.
+    Helping Robots understand our World <br> to help us back in doing things <br> that we are not so good at..
   #username: username
   email: mail@sayanpaul.com
-  github: https://github.com/paulsayan/
+  #github: https://github.com/paulsayan/
   twitter: https://twitter.com/sayanpaul_/
   linkedin: https://linkedin.com/in/sayan-paul/
   avatar: /assets/img/sp2.jpg
